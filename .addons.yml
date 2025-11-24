@@ -118,9 +118,9 @@ addons:
     target: sonarr
     image: ghcr.io/hassio-addons/sonarr/{arch}
   spotify:
-    repository: hassio-addons/addon-spotify-connect
+    repository: imskaiden/addon-spotify-connect
     target: spotify
-    image: ghcr.io/hassio-addons/spotify/{arch}
+    image: ghcr.io/imskaiden/spotify/{arch}
   prowlarr:
     repository: hassio-addons/addon-prowlarr
     target: prowlarr
