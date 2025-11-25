@@ -1,5 +1,5 @@
 name: Spotify Connect 1
-version: 0.18.0
+version: dev
 slug: spotify
 description: Play Spotify music on your Home Assistant device
 url: https://github.com/imskaiden/addon-spotify-connect
@@ -20,4 +20,4 @@ schema:
   refresh_token: str?
   autoplay: bool
   initial_volume: match(^([0-9]|[1-9][0-9]|100)$)?
-image: imskaiden/spotify-{arch}:dev
+image: imskaiden/spotify-{arch}
