@@ -120,7 +120,7 @@ addons:
   spotify:
     repository: imskaiden/addon-spotify-connect
     target: spotify
-    image: ghcr.io/imskaiden/spotify/{arch}
+    image: docker.io/imskaiden/spotify-{arch}
   prowlarr:
     repository: hassio-addons/addon-prowlarr
     target: prowlarr
