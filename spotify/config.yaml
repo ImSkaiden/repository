@@ -1,5 +1,5 @@
 name: Spotify Connect 1
-version: dev
+version: latest
 slug: spotify
 description: Play Spotify music on your Home Assistant device
 url: https://github.com/imskaiden/addon-spotify-connect
